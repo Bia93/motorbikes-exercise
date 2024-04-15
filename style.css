@@ -1,0 +1,12 @@
+#container {
+  display: flex;
+  flex-direction: column;
+}
+#container .motor-bike-container {
+  width: 400px;
+}
+#container .motor-bike-container img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=style.css.map */
