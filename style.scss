@@ -8,5 +8,11 @@
       width: 100%;
       object-fit: contain;
     }
+    .motor-bike-price-hidden {
+      visibility: hidden;
+    }
+    .motor-bike-price-show {
+      visibility: visible;
+    }
   }
 }

@@ -9,4 +9,10 @@
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+#container .motor-bike-container .motor-bike-price-hidden {
+  visibility: hidden;
+}
+#container .motor-bike-container .motor-bike-price-show {
+  visibility: visible;
 }/*# sourceMappingURL=style.css.map */
