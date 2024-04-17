@@ -47,6 +47,7 @@ function generateList() {
     function addToCart(bike) {
       //iau cart ul din local storage
       const cart = JSON.parse(localStorage.getItem("cart")); //ne lueam cartul din local storage
+
       cart.push(bike); //addaugam produsul in cart
       localStorage.setItem("cart", JSON.stringify(cart)); //facem update la carte in local storage
     }
